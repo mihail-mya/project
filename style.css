@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.name{
+    padding-right: 300px;
+}
+.link{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.link__button{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.gap{
+    display: flex;
+    row-gap: 100px;
+}
+.description__img{  
+    width: 50%;
+    height: 720px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+.description__text{
+    padding: 60px;
+}
+.home{
+    background-color: rgb(165, 145, 145);
+}
+.description__h2{
+    font-size: 64px;
+}
+.description__main{
+    font-size: 16px;
+    padding: 20px;
+    color: rgb(66, 62, 62);
+}
+.description__name{
+    padding: 20px;
+    color: rgb(66, 62, 62);
+}
+.read__more{
+    color: rgb(66, 62, 62);
+}
+.firma__img{
+    border-radius: 50%;
+    width: 74px;
+}
+.firma__conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.person__description{
+    text-decoration: none;
+}
+.firm__person{
+    display: flex;
+    align-items: center;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+}
+.firma__img{
+    display: flex;
+
+}
+.person__class{
+    color: gray;
+}
+.house__img{
+    width: 100%;
+position: relative;
+}
+.reeding__house{
+    position: absolute;
+    transform: translate(1300px,-500px);
+}
+.description__house{
+    transform: translate(1300px,-470px);
+    color: gray;
+}
+.firm__our__process{
+display: flex;
+padding-left: 42%;
+flex-direction: column;
+padding-bottom: 20px;
+}
+.firm__main{
+    display: flex;
+    justify-content: space-around;
+}
+.firm__part{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.firm__img{
+    width: 113px;
+}
+.firm__description__process{
+    color: gray;
+}
+.our__process{
+    color: gray;
+    padding-left: 50px;
+}
+.stair__house{
+        width: 100%;
+    position: relative;
+    text-transform: uppercase;
+}
+.stair__house{ 
+    transform: translate(1300px,-570px);
+    font-size: 20px;
+}
+.stair__img{
+    width: 100%;
+}
+.description__stair{
+  color: gray;
+}
+.firm__our{
+    padding-bottom: 100px;
+}
+.customers__happy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 33, 33);
+    width: 100%;
+    height: 600px;
+}
+.customer{
+    padding-left: 120px;
+}
+.customer__imgs{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding-right: 200px;
+}
+.customer__imge{
+    padding-top: 50px;
+}
+.customer__imge{
+    padding-right: 100px;
+}
+.customer__description{
+    color: rgb(211, 204, 204);
+}
+.customer__h2{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.stair__two__house{
+    width: 100%;
+position: relative;
+text-transform: uppercase;
+}
+.stair__two__house{
+transform: translate(220px,-570px);
+font-size: 20px;
+}
+.stair__two__img{
+width: 100%;
+}
+.description__stair__two{
+color: gray;
+}
+.projects{
+    width: 100%;
+    background-color: gray;
+    height: 700px;
+}
+.img__frame{
+  width: 460px;  
+  padding: 20px;
+  height: 500px;
+}
+.frame__section{
+    display: flex;
+    justify-content: center;
+}
+.frame__header{
+    padding-left: 200px;
+}
+.frame__button{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+.frame__new{
+    position: absolute;
+    transform: translate(50px,-400px);
+}
+.frame__york{
+    position: absolute;
+    transform: translate(50px,-370px);
+}
+.frame__button{
+    position: absolute;
+    transform: translate(-400px,400px);
+    cursor: pointer;
+}
+.img__frame__active{
+    height: 500px;
+}
+.frame__h3{
+    color: gray;
+}
+.img__work{
+    width: 84px;
+    border-radius: 50%;
+}
+.img__persons{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 800px;
+    padding-bottom: 100px;
+}
+.works{
+display: flex;
+}
+.work__job{
+    position: absolute;
+    transform: translate(100px,30px);
+}
+.work__discription{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    transform: translate(200px,0);
+}
+.worker{
+    padding-top: 100px;
+}
+.get__in__touch{
+    padding-top: 50px;
+    width: 100%;
+    height: 314px;
+    background-color: rgba(105, 37, 5, 0.39);
+}
+.get__in{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.touch{
+    position: absolute;
+    transform: translate(1400px,-60px);
+    cursor: pointer;
+}
+.get__text{
+    font-size: 40px;
+}
+.get__text__two{
+    text-transform: uppercase;
+}
+.footer{
+    width: 100%;
+    height: 204px;
+}
+.footer__img{
+    width: 30px;
+    margin: 10px;
+    position: absolute;
+    transform: translate(1500px,-100px);
+}
+.footer__description{
+    padding-top: 10px;
+}
+.footer__img__active{
+    position: absolute;
+    transform: translate(1450px,-100px);
+}
+.footer__img__active__two{
+    position: absolute;
+    transform: translate(1550px,-100px);
+}
+.footer__conteiner{
+    padding: 100px;
+}
